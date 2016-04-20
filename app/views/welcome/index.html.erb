@@ -1,2 +1,27 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | My Event Application</title>
+  </head>
+  <body>
+    <div class="center jumbotron home">
+        <h1>Welcome to the My Memory</h1>
+        <h2>This is the home page for the My Memory application</h2>
+    </div>
+    <div>
+      <table>
+        <tr>
+          <td class="col-md-4 home1 center jumbotron">
+            <p>Những vui buồn của tuổi học trò đáng nhớ, những kỉ niệm khó quên của thời áo trắng, 
+              hãy chia sẻ tại đây như để nhớ về một thời đã qua với vui, buồn hay một xúc cảm sao xuyến khó quên</p>
+          </td>
+          <td class="col-md-4 home2 center jumbotron">
+            <p>Tình cảm thầy trò đáng kính, tình bạn thắm thiết,
+              hãy để cảm xúc ấy được lưu lại như một kỉ niệm mà mỗi khi nhớ tới ta như được quay về quá khứ hồn nhiên ngày nào</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
+

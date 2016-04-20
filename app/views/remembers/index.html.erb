@@ -1,0 +1,7 @@
+<% @remembers.each do |remember| %>
+   <div class="col-md-5 showRe">
+       <%= link_to remember.name, remember %>
+       <p><%= remember.school %></p>
+       <p><%= remember.content %></p>
+   </div>
+<% end %>

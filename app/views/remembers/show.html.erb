@@ -1,0 +1,11 @@
+<div class="container" style="background-color: #E0FFFF">
+    <div class="col-md-8 col-md-offset-2 showRe">
+        <h3><%= @remember.name %></h3>
+        <p>
+            <%= @remember.school %><br>
+            <%= @remember.content %>
+        </p>
+        <%= link_to "Edit", edit_remember_path(@remember) %>
+        <%= link_to  "Delete", remember_path(@remember), method: :delete, data: {confirm: "Bạn chắc chắn muốn xóa?"} %>
+    </div>
+</div>
